@@ -1,6 +1,8 @@
-# BuildOwn.AI - Tools
+# Examples Ollama
 
-This is a repository for some simple LLM based tools, provided by [BuildOwn.AI](https://buildown.ai)
+This package provides only provides some helper for interacting with Ollama, like ensuring, that the required llm model is available.
+
+There should be no reason to change something here.
 
 |   |   |
 |---|---|

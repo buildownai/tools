@@ -1,0 +1,41 @@
+{
+  "name": "book_code_examples",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Monorepository of LLM based tools provided by BuildOwn.AI",
+  "keywords": [
+    "llm",
+    "ai",
+    "typescript",
+    "LLM",
+    "tool"
+  ],
+  "homepage": "https://buildown.ai",
+  "author": {
+    "name": "Sebastian Wessel",
+    "url": "https://buildown.ai"
+  },
+  "license": "CC BY-NC 4.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buildownai/book_code_examples.git"
+  },
+  "bugs": {
+    "url": "https://github.com/buildownai/book_code_examples/issues"
+  },
+  "scripts": {
+    "lint": "bunx @biomejs/biome check --write"
+  },
+  "workspaces": [
+    "tools/*",
+    "shared/*"
+  ],
+  "devDependencies": {
+    "@biomejs/biome": "1.8.0",
+    "@types/bun": "latest"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "typescript": "^5.6.3"
+  }
+}

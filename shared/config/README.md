@@ -1,6 +1,8 @@
-# BuildOwn.AI - Tools
+# Examples Config
 
-This is a repository for some simple LLM based tools, provided by [BuildOwn.AI](https://buildown.ai)
+This package provides only a global config for all examples.
+
+You can adjust this config for your personal needs here globaly, which means you do not need to change the config in every example.
 
 |   |   |
 |---|---|
